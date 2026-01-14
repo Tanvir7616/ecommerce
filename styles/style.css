@@ -1,0 +1,18 @@
+.header-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.brand h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.lists{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+.list{
+    list-style: none;
+}
