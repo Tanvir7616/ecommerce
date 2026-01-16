@@ -124,7 +124,7 @@
 
 }
 .card-description{
-    font-size: ;
+    /* font-size: ; */
     font-weight: bold;
     color: #787885;
     line-height: 143%;
@@ -227,7 +227,12 @@ footer{
     }
     .card-container{
         grid-template-columns: 1fr;
+        /* display: flex;
+        flex-direction: column; */
+        margin: auto;
         align-items: center;
+        justify-content: center;
+        place-items: center;
         
     }
     .join-now{
